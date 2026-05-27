@@ -5,7 +5,7 @@ export default function TestToolsPage() {
   const resetQuotas = async () => {
 
     const response = await fetch(
-      "http://localhost:8080/test-tools/reset-quotas",
+      "https://mini-lead-system.onrender.com/test-tools/reset-quotas",
       {
         method: "POST"
       }

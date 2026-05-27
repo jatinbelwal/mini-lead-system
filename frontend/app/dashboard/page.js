@@ -9,7 +9,7 @@ export default function DashboardPage() {
   const fetchDashboard = async () => {
 
     const response = await fetch(
-      "http://localhost:8080/dashboard"
+      "https://mini-lead-system.onrender.com/dashboard"
     );
 
     const data = await response.json();

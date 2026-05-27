@@ -23,7 +23,7 @@ export default function RequestServicePage() {
     try {
 
       const response = await fetch(
-        "http://localhost:8080/api/leads",
+        "https://mini-lead-system.onrender.com/api/lead",
         {
           method: "POST",
           headers: {
