@@ -1,0 +1,10 @@
+node_modules/
+target/
+.next/
+.idea/
+.vscode/
+.env
+dist/
+build/
+*.msi
+*.crdownload
